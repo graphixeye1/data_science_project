@@ -31,7 +31,9 @@ This project offers a blend of passion for football with the excitement of data-
 # *Focusing on `Europe`,* 
 - *The net transfers indicates there were more incoming transfers in the 2021/2022 season as well as that of 2022/2023 season.*
 <img src='european transfer.png'>
+
 - *The following countries really made a profit of outgoing transfers*
+
 1. Albania
 2. Faroe Island
 3. Republic of Ireland
