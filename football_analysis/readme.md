@@ -43,7 +43,7 @@ This project offers a blend of passion for football with the excitement of data-
 7. Slovenia
 
 
-- `Kosovo, San Marino and Malta` did have any incoming or outgoing transfers in the 2022/2023 season
+- `Kosovo, San Marino and Malta` didn't have any incoming or outgoing transfers in the 2022/2023 season
 
 - *The top five countries that spent much on incoming transfers in Europe is as follows*
 1. England
