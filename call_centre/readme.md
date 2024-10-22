@@ -38,3 +38,5 @@ I use DAX to compute measures like number of resolved issues, number of answered
 **Project Outcomes**
 
 `This dashboard gives a clear explanation on resolved issues of customers by call agents of the Telecom Company and can be used as a predictive tool for determine the long term behavior trends of agents and customers which will prevent the abandonment of calls for a high customers satisfaction.`
+
+<img src='call_center.PNG>
