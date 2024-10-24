@@ -9,14 +9,18 @@ The first page includes the demographic insights, the second page focuses on tur
 <img src='analysis_2.png'>
 <img src='employee_wellness.png'>
 
-# Data Cleaning
+## Data Cleaning
 - The dataset was imported into Excel and redundant columns were deleted
-- Columns renamed for proper description
-- Checking duplicates
+- Converting data formats
+- Removing duplicates and outliers
 - Cleaning individual columns for missing values
 - Removing the *NAN* values from the dataset
+- Check data distribution
+- Validate data quality
+- Document data dictionary
+- Performed data transformation
 
-# Data Visualization
+## Data Visualization
 Using *Power BI* Visualization was created for the following
 - Marital status
 - Job role
@@ -47,7 +51,7 @@ example *distance from home 1-10 considered as near, 11-20 as far and 21-30 as v
 <img src='distance_home.png'>
 
 
-# Turnover analysis
+## Turnover analysis
 turnover analysis is a process that examines the factors that causes employees to leave or stay with a company.
 from this `report`
 >16% of the total employees left their job, out of this\
