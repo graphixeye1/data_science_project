@@ -166,8 +166,8 @@ ORDER BY
 LIMIT
     100;
 ```
-![Total Encounters Per Year](./images/total_year.png)
-![Total Encounters Per Year](./images/total_year_table.png)
+![Total Encounters Per Year](./images/total_year.PNG)
+![Total Encounters Per Year](./images/total_year_table.PNG)
 
 2. **Encounter Class Distribution**
 ```sql
@@ -190,8 +190,8 @@ SELECT
 FROM my_schema.cleaned_encounters
 GROUP BY duration_category;
 ```
-![Encounters Over/Under 24 Hours](./images/24hr.png)
-![Encounters Over/Under 24 Hours](./images/24hr_table.png)
+![Encounters Over/Under 24 Hours](./images/24hr.PNG)
+![Encounters Over/Under 24 Hours](./images/24hr_table.PNG)
 
 ---
 ## OBJECTIVE 2: COST & COVERAGE INSIGHTS
@@ -203,6 +203,7 @@ FROM my_schema.cleaned_encounters
 WHERE payer_coverage = 0;
 ```
 ![Encounters with Zero Payer Coverage](./images/zero_cout_%25.PNG)
+
 2. **Top 10 Most Frequent Procedures**
 ```sql
 SELECT description, 
