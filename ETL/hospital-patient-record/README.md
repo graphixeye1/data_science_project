@@ -166,8 +166,8 @@ ORDER BY
 LIMIT
     100;
 ```
-![Total Encounters Per Year](/images/total_year.png)
-![Total Encounters Per Year](/images/total_year_table.png)
+![Total Encounters Per Year](images/total_year.png)
+![Total Encounters Per Year](images/total_year_table.png)
 
 2. **Encounter Class Distribution**
 ```sql
