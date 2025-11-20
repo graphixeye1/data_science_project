@@ -166,8 +166,8 @@ ORDER BY
 LIMIT
     100;
 ```
-![Total Encounters Per Year](images/total_year.png)
-![Total Encounters Per Year](images/total_year_table.png)
+![Total Encounters Per Year](./images/total_year.png)
+![Total Encounters Per Year](./images/total_year_table.png)
 
 2. **Encounter Class Distribution**
 ```sql
@@ -176,8 +176,8 @@ SELECT encounter_class,
 FROM my_schema.cleaned_encounters
 GROUP BY encounter_class;
 ```
-![Encounter Class Distribution](/images/class_dist.PNG)
-![Encounter Class Distribution](/images/class_dist_graph.PNG)
+![Encounter Class Distribution](./images/class_dist.PNG)
+![Encounter Class Distribution](./images/class_dist_graph.PNG)
 
 3. **Encounters Over/Under 24 Hours**
 ```sql
@@ -190,8 +190,8 @@ SELECT
 FROM my_schema.cleaned_encounters
 GROUP BY duration_category;
 ```
-![Encounters Over/Under 24 Hours](/images/24hr.png)
-![Encounters Over/Under 24 Hours](/images/24hr_table.png)
+![Encounters Over/Under 24 Hours](./images/24hr.png)
+![Encounters Over/Under 24 Hours](./images/24hr_table.png)
 
 ---
 ## OBJECTIVE 2: COST & COVERAGE INSIGHTS
@@ -202,7 +202,7 @@ SELECT COUNT(*) AS zero_coverage_encounters,
 FROM my_schema.cleaned_encounters
 WHERE payer_coverage = 0;
 ```
-![Encounters with Zero Payer Coverage](/images/zero_cout_%25.PNG)
+![Encounters with Zero Payer Coverage](./images/zero_cout_%25.PNG)
 2. **Top 10 Most Frequent Procedures**
 ```sql
 SELECT description, 
@@ -223,7 +223,7 @@ GROUP BY procedure_code
 ORDER BY average_base_cost DESC
 LIMIT 10;
 ```
-![Top 10 Most Frequent Procedures](/images/base_cost.PNG)
+![Top 10 Most Frequent Procedures](./images/base_cost.PNG)
 
 
 4. **Average Total Claim Cost by Payer**
