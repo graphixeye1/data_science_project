@@ -178,6 +178,7 @@ GROUP BY encounter_class;
 ```
 ![Encounter Class Distribution](/images/class_dist.PNG)
 ![Encounter Class Distribution](/images/class_dist_graph.PNG)
+
 3. **Encounters Over/Under 24 Hours**
 ```sql
 SELECT 
@@ -191,6 +192,7 @@ GROUP BY duration_category;
 ```
 ![Encounters Over/Under 24 Hours](/images/24hr.png)
 ![Encounters Over/Under 24 Hours](/images/24hr_table.png)
+
 ---
 ## OBJECTIVE 2: COST & COVERAGE INSIGHTS
 1. **Encounters with Zero Payer Coverage**
@@ -222,6 +224,8 @@ ORDER BY average_base_cost DESC
 LIMIT 10;
 ```
 ![Top 10 Most Frequent Procedures](/images/base_cost.PNG)
+
+
 4. **Average Total Claim Cost by Payer**
 ```sql
 SELECT payer_id, 
@@ -260,7 +264,9 @@ GROUP BY e1.patient_id
 ORDER BY readmission_count DESC
 LIMIT 10;
 ```
-![Patients with Most Readmissions](/images/last.PNG)
+![Patients with Most Readmissions](./images/last.PNG)
+
+
 # Hospital Analytics Questions
 -- OBJECTIVE 1: ENCOUNTERS OVERVIEW
 -- a. How many total encounters occurred each year?
